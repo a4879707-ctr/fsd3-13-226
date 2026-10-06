@@ -100,7 +100,7 @@ app.get("/api/products/:id", (req, res) => {
             msg: `Product not found with id: ${id}`
         });
     }
-});
+});       
 
 
 // 404 Route
